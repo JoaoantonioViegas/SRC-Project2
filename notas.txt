@@ -1,0 +1,26 @@
+Análise e descrição do comportamento não-anômalo (4 pontos):
+Carregamento e limpeza dos dados: Comece importando os arquivos .parquet usando a biblioteca pandas do Python. Você pode fazer isso usando a função read_parquet. 
+Depois de carregar os dados, verifique se existem valores ausentes e decida como lidar com eles (por exemplo, remover linhas com valores ausentes ou preenchê-los com a média ou mediana).
+ Além disso, confirme se os tipos de dados de cada coluna são adequados. Por exemplo, 'src_ip' e 'dst_ip' devem ser strings, 'proto' também deve ser uma string, enquanto 'timestamp', 'port', 'up_bytes' e 'down_bytes' devem ser números.
+
+Verificação se os linhas de dados são coerentes:
+
+src_ip: sempre certo, nada de ips estranhos
+dst_ip: sempre certo, nada de ips estranhos
+port: sempre certo, portos utlizados: 53 443
+proto: sempre certo, só temos trafego TCP e UDP
+
+Volume de tráfego:
+
+----up_bytes-----
+Total: 9750779128
+Média: 10063.50
+Mediana: 9145.0
+Desvio Padrão: 6911.4
+----down_bytes-----
+Total: 89859159562
+Média: 92741.0
+Mediana: 75847.0
+Desvio Padrão: 144198.6
+
+
