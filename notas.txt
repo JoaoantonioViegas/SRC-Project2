@@ -10,7 +10,7 @@ dst_ip: sempre certo, nada de ips estranhos
 port: sempre certo, portos utlizados: 53 443
 proto: sempre certo, só temos trafego TCP e UDP
 
-Volume de tráfego:
+Volume de tráfego normal:
 
 ----up_bytes-----
 Total: 9750779128
@@ -22,5 +22,20 @@ Total: 89859159562
 Média: 92741.0
 Mediana: 75847.0
 Desvio Padrão: 144198.6
+
+Volume de tráfego anômalo:
+
+----up_bytes-----
+Total: 16833951313
+Média: 16378.306817341558
+Mediana: 8664.0
+Desvio Padrão: 1172915.7149008764
+
+----down_bytes-----
+Total: 88755335924
+Média: 86352.9955867759
+Mediana: 71336.0
+Desvio Padrão: 140812.78532008475
+
 
 
