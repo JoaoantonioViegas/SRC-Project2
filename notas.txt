@@ -39,3 +39,18 @@ Desvio Padrão: 140812.78532008475
 
 
 
+Falta fazer:
+ - Verificar quais os ips que são servidores e quais são clientes
+
+ IPS:
+
+ Servidores:
+
+192.168.105.222
+192.168.105.223
+192.168.105.229
+192.168.105.230
+192.168.105.240
+
+    
+    
