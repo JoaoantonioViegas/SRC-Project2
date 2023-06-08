@@ -48,9 +48,20 @@ Falta fazer:
 
 192.168.105.222
 192.168.105.223
+192.168.105.225
 192.168.105.229
 192.168.105.230
+192.168.105.238
 192.168.105.240
+
+Botnet:
+
+192.168.105.19
+192.168.105.88
+192.168.105.151
+192.168.105.172
+
+Trafego de download excessivo pelos ips de botnet pode significar receção de comandos ou atualizações de um servidor de controlo.
 
     
     
